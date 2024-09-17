@@ -27,7 +27,7 @@ class MyApp extends StatelessWidget {
         body: Center(
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
-              children: [Icon(Icons.person_rounded,size: 100.0,color: Colors.black),Text("Karthik")],
+              children: [Icon(Icons.person_rounded,size: 50.0,color: Colors.black),Text("Karthik")],
           )
         ),
       ),
