@@ -12,7 +12,13 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          backgroundColor: Colors.blue,
+          leading: IconButton(
+            icon: Icon(Icons.home),
+            onPressed: () {
+              print('Home icon pressed');
+            },
+          ),
+          backgroundColor: const Color.fromARGB(255, 255, 169, 40),
           title: Text(
             "Home",
             style: TextStyle(color: Colors.white),
